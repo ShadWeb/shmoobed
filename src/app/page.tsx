@@ -6,9 +6,9 @@ import Header from "@/components/Header";
 export default function Home() {
   return (
     <Container>
-    <div className="flex flex-col gap-12 ">
-      <Header/>
+    <div className="flex flex-col  ">
       <Advertising_list/>
+      <Header/>
       <Blog_list/>
     </div>
     </Container>

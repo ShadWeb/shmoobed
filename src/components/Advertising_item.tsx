@@ -6,12 +6,15 @@ type AdvertisingProps={
 }
 function Advertising_item({title,dic,img}:AdvertisingProps) {
   return (
-    <div className='text-center items-center gap-4 h-[400px] max-w-xs shadow-lg rounded-lg border flex flex-col pb-4 px-4 py-6 bg-blue-600 hover:bg-blue-400'>
-      <div >
-        <img src={`${img}`} alt="" />
+    <div className='text-center h-[380px] w-[350px] items-center gap-14 md:h-[400px] max-w-xs hover:transition-shadow rounded-lg md:rounded-t-full border flex flex-col pb-4 px-4 py-6 bg-white hover:shadow-2xl '>
+      <div className='shadow-md md:rounded-t-full  flex items-center flex-col justify-center w-full h-full'>
+      <img className=' md:rounded-t-full  rounded-md' src={`${img}`} alt="" />
+      <div className='p-5' >
+      <h2 className='font-bold md:text-lg text-sm text-nowrap'>{title}</h2>
+      <p className='font-semibold md:text-base text-sm text-slate-600'>{dic}</p>
       </div>
-      <h2 className='font-bold text-lg'>{title}</h2>
-      <p className='font-semibold text-base text-slate-600'>{dic}</p>
+      </div>
+       
     </div>
   )
 }

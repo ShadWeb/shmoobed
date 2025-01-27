@@ -1,16 +1,17 @@
 import React from 'react'
 import Blog_item from './Blog_item'
+import Membership from './Membership'
 
 function Blog_list() {
   return (
-    <div className='bg-white shadow-lg p-8 pt-10 rounded-lg  gap-12 flex flex-col items-center justify-center'>
-      <div>
-          <h2 className='font-bold text-4xl'>
+    <div dir='rtl' className=' shadow-lg p-8 pt-10 rounded-lg flex-col gap-6 flex bg-gradient-to-r from-cyan-300 via-blue-200 to-green-200   justify-center '>
+     
+       <div className='w-full bg-white p-4 flex flex-col gap-4 border shadow max-w-3xl text-center md:text-left items-center rounded-md '>
+       <h2 className='font-bold  text-2xl'>
           مشاوره تبلیغاتی از طراحی استراتژی تبلیغاتی تا مدیریت اجرای تبلیغات
           </h2>
-       </div>
-       <div className='w-full p-4 flex flex-col gap-4'>
-        <Blog_item title='اسرار موفقیت برند ری بن Ray Ban' date='
+          <div className='flex flex-col gap-2 bg-white  '>
+          <Blog_item title='اسرار موفقیت برند ری بن Ray Ban' date='
 سپتامبر 22, 2024
 —
 توسط shmoobed'
@@ -39,7 +40,13 @@ shmoobed'/>
 آگوست 24, 2024
 —توسط
 shmoobed'/>
+          </div>
+       
         
+       </div>
+
+       <div>
+        <Membership/>
        </div>
     </div>
   )
