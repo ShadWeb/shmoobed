@@ -7,7 +7,7 @@ function Header() {
     <div
     className=''>
         <Container>
-            <div className='flex mt-12 py-9   h-full shadow-lg items-center justify-center w-full px-9 gap-4 bg-slate-50 rounded-lg border  md:flex-col '>
+            <div className='flex mt-12 py-9   h-full shadow-lg items-center justify-center w-full px-9 gap-4 bg-slate-200 rounded-lg border  md:flex-col '>
             {/* <div className='text-center  flex flex-col md:flex-row    h-full bg-white rounded-lg 
              border ' dir='rtl'>
                  <img className='shadow-lg  h-[300px] w-[400px] md:w-[500px] md:h-[500px] rounded-2xl ' src="https://shmoobed.ir/wp-content/uploads/2024/03/%D8%AA%D8%A8%D9%84%DB%8C%D8%BA%D8%A7%D8%AA-%D8%B3%D9%82%D9%81-%D9%86%D8%AF%D8%A7%D8%B1%D8%AF-edited.jpeg" />
@@ -42,10 +42,10 @@ function Header() {
             </div>
             <div className="p-8 flex flex-col gap-4">
               <div>
-              <p className="text-sm md:text-lg font-semibold tracking-wide text-indigo-500 uppercase">تبلیغات سقف ندارد.</p>
-                  <p className="mt-1 block text-lg leading-tight font-medium text-black ">
+              <p className="text-sm md:text-lg lg:text-2xl font-semibold tracking-wide text-indigo-500 uppercase">تبلیغات سقف ندارد.</p>
+                  <p className="mt-1 block text-lg leading-tight lg:text-xl font-medium text-black ">
                   تبلیغات هدفمند تاثیر گذار است و سرمایه گذاری برای تبلیغات لازمه بقا، رشد و سوددهی کسب و کار است.              </p>
-                  <p className="mt-1 block text-lg leading-tight font-medium text-black ">
+                  <p className="mt-1 block text-lg leading-tight lg:text-xl font-medium text-black ">
                   تبلیغات کسب و کارتان را با مشاوره تخصصی تبلیغاتی شروع کنید تا به سرعت از رقبا عبور کنید.</p>
                   <p className="mt-2 text-gray-500">
                   تبلیغات راهکار خلاق ارتباط سودمند با مشتریان نیازمند است با این هدف که در کمترین زمان بیشترین تآثیر را در ذهن آنان بگذارد و سبب خرید شود.

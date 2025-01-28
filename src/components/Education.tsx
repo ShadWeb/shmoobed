@@ -4,7 +4,7 @@ import Heder from './Adv_hed/Heder'
 
 function Education() {
   return (
-    <div  className='flex flex-col   rounded-lg gap-10  p-8  bg-slate-50'>
+    <div  className='flex flex-col   rounded-lg gap-10  p-8  bg-slate-200'>
      
       <div className='flex items-center justify-center bg-white border rounded-lg shadow-lg'>
 

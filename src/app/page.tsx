@@ -2,6 +2,7 @@ import Education from "@/components/Education";
 import Blog_list from "@/components/Blog_list";
 import Container from "@/components/Container"
 import Header from "@/components/Header";
+import Membership from "@/components/Membership";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Header/>
       <Education/>
       <Blog_list/>
+      <Membership/>
     </div>
     </Container>
   );

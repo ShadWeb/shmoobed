@@ -1,4 +1,5 @@
 import React from 'react'
+
 import "./job-section.css";
 function Heder() {
   return (
@@ -6,7 +7,7 @@ function Heder() {
        <div className="jobs-section-container">
       <h3 className="jobs-main-title">Jobs & Education</h3>
       <div className="jobs-wrapper">
-
+  
 
         {/* <!-- timeLine --> */}
         <div className="timeline-wrapper">

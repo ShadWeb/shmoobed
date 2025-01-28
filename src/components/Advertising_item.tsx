@@ -9,7 +9,7 @@ function Advertising_item({title,dic,img}:AdvertisingProps) {
     dic = dic.slice(0,100 -3) +"...";
 }
   return (
-    <div dir='rtl' className='flex flex-col md:flex-row rounded-lg border shadow-md p-3 max-w-[300px] hover:bg-slate-200 xl:max-w-[380px] gap-2'>
+    <div dir='rtl' className='flex flex-col md:flex-row rounded-lg border shadow-md p-3 max-w-[300px] hover:bg-blue-100 xl:max-w-[380px] gap-2'>
       {/* <div className='shadow-md flex items-center flex-col justify-center w-full h-full'>
       <img className=' md:rounded-t-full  rounded-md' src={`${img}`} alt="" />
       <div className='p-5' >
