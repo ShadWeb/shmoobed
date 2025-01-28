@@ -3,7 +3,7 @@ import React from 'react'
 function Foote() {
   return (
     <div>
-    <div dir='rtl' className='p-4 bg-blue-200 mt-12 rounded-lg rounded-b-none'>
+    <div dir='rtl' className='p-4 bg-slate-400 mt-12 rounded-lg rounded-b-none'>
        <div  className='flex bg-white p-4 rounded-lg shadow-lg'>
         <div className=''>
             <div>
@@ -13,7 +13,7 @@ function Foote() {
              <div>
               <ul>
                 <li>
-                  
+
                 </li>
               </ul>
              </div>
