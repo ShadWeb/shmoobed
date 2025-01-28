@@ -4,7 +4,7 @@ import Membership from './Membership'
 
 function Blog_list() {
   return (
-    <div dir='rtl' className=' shadow-lg p-8 pt-10 rounded-lg flex-col gap-6 flex bg-gradient-to-r from-cyan-300 via-blue-200 to-green-200   justify-center '>
+    <div dir='rtl' className=' shadow-lg p-8 pt-10 rounded-lg flex-col md:flex-row gap-6 flex bg-slate-50   justify-center '>
      
        <div className='w-full bg-white p-4 flex flex-col gap-4 border shadow max-w-3xl text-center md:text-left items-center rounded-md '>
        <h2 className='font-bold  text-2xl'>

@@ -20,8 +20,8 @@ function Navbar() {
   return (
     <Container>
 
-    <nav className='flex justify-between items-center p-6 rounded-b-md px-8 shadow-md bg-gradient-to-r from-cyan-300 via-blue-200 to-green-200'>
-      <div className='flex justify-between bg-white p-2 rounded-md items-center w-full px-9'>
+    <nav className='flex justify-between items-center p-4 rounded-b-md px-8 shadow-md bg-slate-50'>
+      <div className='flex justify-between bg-white p-2 rounded-md items-center w-full px-9 '>
       <div className='md:flex hidden   ml-4'>
         {
             navlinks.map((item=>(
