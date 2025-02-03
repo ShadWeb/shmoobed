@@ -7,7 +7,7 @@ function Header() {
     <div
     className=''>
         <Container>
-            <div className='flex mt-12 py-9   h-full shadow-lg items-center justify-center w-full px-9 gap-4 bg-slate-200 rounded-lg border  md:flex-col '>
+            <div className='flex mt-4  py-5 md:py-9   h-full shadow-lg items-center justify-center w-full px-4 md:px-9 gap-4 bg-slate-200 rounded-lg border  md:flex-col '>
             {/* <div className='text-center  flex flex-col md:flex-row    h-full bg-white rounded-lg 
              border ' dir='rtl'>
                  <img className='shadow-lg  h-[300px] w-[400px] md:w-[500px] md:h-[500px] rounded-2xl ' src="https://shmoobed.ir/wp-content/uploads/2024/03/%D8%AA%D8%A8%D9%84%DB%8C%D8%BA%D8%A7%D8%AA-%D8%B3%D9%82%D9%81-%D9%86%D8%AF%D8%A7%D8%B1%D8%AF-edited.jpeg" />

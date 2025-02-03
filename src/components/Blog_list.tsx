@@ -3,7 +3,7 @@ import Blog_item from './Blog_item'
 
 function Blog_list() {
   return (
-    <div dir='rtl' className=' shadow-lg p-8 pt-10 rounded-lg flex-col md:flex-row gap-6 flex bg-slate-200    '>
+    <div dir='rtl' className=' shadow-lg px-4 md:px-9  md:p-8 pt-5 md:pt-10 rounded-lg flex-col md:flex-row gap-6 flex bg-slate-200    '>
      
        <div className=' bg-white p-4 flex flex-col gap-4 border shadow max-w-3xl text-center md:text-left items-center rounded-md '>
        <h2 className='font-bold  text-2xl'>
